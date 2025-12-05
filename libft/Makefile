@@ -6,7 +6,7 @@
 #    By: smolinas <smolinas@student.42sp.org.b      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/08/07 11:14:00 by smolinas          #+#    #+#              #
-#    Updated: 2025/10/23 11:01:47 by smolinas         ###   ########.fr        #
+#    Updated: 2025/12/04 13:22:30 by smolinas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,8 @@ NAME = libft.a
 CC = cc
 INCLUDE = .
 FLAGS = -Wall -Werror -Wextra
-SRC = 	ft_atoi.c \
+SRC = 	ft_atodb.c \
+	ft_atoi.c \
 	ft_isalnum.c \
 	ft_isalpha.c \
 	ft_isascii.c \

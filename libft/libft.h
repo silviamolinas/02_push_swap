@@ -6,7 +6,7 @@
 /*   By: smolinas <smolinas@student.42sp.org.b      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/21 09:26:21 by smolinas          #+#    #+#             */
-/*   Updated: 2025/10/23 10:39:07 by smolinas         ###   ########.fr       */
+/*   Updated: 2025/12/04 13:25:29 by smolinas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdint.h>
 # include <fcntl.h>
 # include <stdarg.h>
+# include <math.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
@@ -33,7 +34,8 @@ int		ft_isascii(int c);
 int		ft_isprint(int c);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
-int		ft_atoi(const char *nprt);
+int		ft_atoi(const char *nptr);
+double	ft_atodb(const char *nptr);
 int		ft_memcmp(const void *a1, const void *a2, size_t size);
 int		ft_strncmp(const char *s1, const char *s2, size_t size);
 size_t	ft_strlen(const char *str);

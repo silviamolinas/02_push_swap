@@ -6,7 +6,7 @@
 /*   By: smolinas <smolinas@student.42sp.org.b      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/29 11:46:28 by smolinas          #+#    #+#             */
-/*   Updated: 2025/10/21 13:11:09 by smolinas         ###   ########.fr       */
+/*   Updated: 2025/12/04 11:19:17 by smolinas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ static char	*ft_read_update(int fd, char *tail, char *buffer)
 		if (bytes == 0)
 			break ;
 		if (bytes == -1)
-		{	
+		{
 			free(tail);
 			return (NULL);
 		}
